@@ -20,13 +20,7 @@ const Navbar = () => {
 
         {/* Desktop Menu */}
         <div className="hidden md:flex items-center  text-blue-500  gap-8 text-lg">
-          <NavLink
-            to="/Project"
-            href="#"
-            className="hover:text-cyan-300 underline transition"
-          >
-            Work
-          </NavLink>
+        
           <NavLink to="/ProjectWork" className="hover:text-cyan-300 transition">
             About Me
           </NavLink>
