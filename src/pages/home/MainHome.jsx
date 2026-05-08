@@ -24,6 +24,8 @@ import allCountriesImg from "../../assets/allCountriesImg .png";
 import realEstateImg from "../../assets/realEstateImg.png";
 import eCommerceImg from "../../assets/eCommerceImg .png";
 import worknest from "../../assets/worknest13.png";
+import growth from "../../assets/velocity.png";
+import spaceImg from "../../assets/space.png";
 
 const HeroSection = () => {
   // useEffect(() => {
@@ -345,24 +347,26 @@ const HeroSection = () => {
       </div>
 
       {/* Project 2 */}
-      <div className="max-w-6xl mx-auto mt-30 grid md:grid-cols-2 gap-12 items-start">
+      <div className="max-w-6xl mx-auto mt-30 grid md:grid-cols-2 gap-12 items-start mb-15">
         <div className="bg-[#111] p-5 rounded-xl shadow-lg border border-gray-800">
           <img
-            src={realEstateImg}
+            src={growth}
             alt="Real Estate Project"
             className="rounded-lg w-full "
           />
         </div>
         <div className="space-y-6 text-left">
-          <h3 className="text-2xl md:text-3xl font-bold">Real Estate</h3>
+          <h3 className="text-2xl md:text-3xl font-bold">VELOCITY TRANSIT</h3>
           <p className="text-gray-300 leading-relaxed">
-            Real estate properties project.
+            A modern logistics and fleet management platform built to monitor
+            couriers, track vehicle operations in real time, and streamline
+            shipment delivery across multiple transport networks.
           </p>
           <div className="mt-6">
             <h4 className="text-sm text-gray-400 mb-2">PROJECT INFO</h4>
             <div className="border-t border-gray-700 py-3 flex justify-between">
               <span className="text-gray-300">Tech</span>
-              <span className="text-gray-200">React • MongoDB • API</span>
+              <span className="text-gray-200">• React & Node.js • API</span>
             </div>
             <div className="border-t border-gray-700 py-3 flex justify-between">
               <span className="text-gray-300">Role</span>
@@ -371,14 +375,14 @@ const HeroSection = () => {
           </div>
           <div className="flex items-center gap-6 pt-4">
             <a
-              href="https://beta-house-one.vercel.app/"
+              href="https://www.velocitytransit.xyz/"
               target="_blank"
               className="text-lime-300 underline flex items-center gap-2"
             >
               LIVE DEMO <ArrowUpRight className="w-4 h-4" />
             </a>
             <a
-              href="https://github.com/luisbalaguerofficialm-ops/beta-house"
+              href="https://vercel.com/luisbalaguerofficialm-ops-projects/velocity"
               target="_blank"
               className="text-lime-300 underline flex items-center gap-2"
             >
@@ -533,7 +537,57 @@ const HeroSection = () => {
           </div>
         </div>
       </div>
+      {/* ======================== */}
+      <div className="max-w-6xl mx-auto mt-30 grid md:grid-cols-2 gap-12 items-start">
+        <div className="bg-[#111] p-5 rounded-xl shadow-lg border border-gray-800">
+          <span className="inline-block text-medium bg-gray-800 text-gray-200 px-3 py-1 rounded-full mb-4">
+            Conceptual Work
+          </span>
+          <img
+            src={spaceImg}
+            alt="E-Commerce Project"
+            className="rounded-lg w-full"
+          />
+        </div>
+        <div className="space-y-6 text-left">
+          <h3 className="text-2xl md:text-3xl font-bold">
+            {" "}
+            SPACE TOURISM MULTI-page website
+          </h3>
+          <p className="text-gray-300 leading-relaxed">
+            So, you want to travel to Space
+          </p>
+          <div className="mt-6">
+            <h4 className="text-sm text-gray-400 mb-2">PROJECT INFO</h4>
+            <div className="border-t border-gray-700 py-3 flex justify-between">
+              <span className="text-gray-300">Tech Stack</span>
+              <span className="text-gray-400">React • Tailwind • Vite</span>
+            </div>
+            <div className="border-t border-gray-700 py-3 flex justify-between">
+              <span className="text-gray-300">Role</span>
+              <span className="text-blue-500 text-medium">Frontend</span>
+            </div>
+          </div>
+          <div className="flex items-center gap-6 pt-4">
+            <a
+              href="https://e-commerce-wheat-three.vercel.app/"
+              target="_blank"
+              className="text-lime-300 underline flex items-center gap-2"
+            >
+              LIVE DEMO <ArrowUpRight className="w-4 h-4" />
+            </a>
+            <a
+              href="https://github.com/daniel689671/-e-commerce"
+              target="_blank"
+              className="text-lime-300 underline flex items-center gap-2"
+            >
+              SEE ON GITHUB <Github className="w-5 h-5" />
+            </a>
+          </div>
+        </div>
+      </div>
       <section className="w-full text-white py-24 px-6 md:px-16">
+        {" "}
         <div className="max-w-6xl mx-auto grid md:grid-cols-2 gap-16">
           {/* Left Title */}
           <div className="flex items-start">

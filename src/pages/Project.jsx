@@ -2,7 +2,6 @@ import React from "react";
 import { ArrowUpRight, Github } from "lucide-react";
 import allCountriesImg from "../assets/allCountriesImg .png";
 import realEstateImg from "../assets/realEstateImg.png";
-import spaceImg from "../assets/space.png";
 import contact from "../assets/contact.png";
 import goal from "../assets/goal.png";
 import fylo from "../assets/fylo.png";
@@ -130,63 +129,7 @@ const Project = () => {
           </div>
 
           {/* Duplicate Project 1 (Optional / Your 3rd project) */}
-          <div className="bg-[#111] rounded-xl shadow-lg border border-gray-800 overflow-hidden">
-            <div className="p-4">
-              <span className="inline-block text-sm bg-gray-800 text-gray-300 px-3 py-1 rounded-full mb-3">
-                Conceptual Work
-              </span>
-
-              <img
-                src={spaceImg}
-                alt="All Countries Project"
-                className="rounded-lg w-full h-44 object-cover"
-              />
-            </div>
-
-            <div className="p-4 text-left space-y-3">
-              <h3 className="text-xl font-bold">
-                SPACE TOURISM MULTI-page website
-              </h3>
-
-              <p className="text-gray-300 text-sm leading-relaxed">
-                So, you want to travel to Space
-              </p>
-
-              <div className="mt-3">
-                <h4 className="text-xs text-gray-400 mb-1">PROJECT INFO</h4>
-
-                <div className="border-t border-gray-700 py-2 flex justify-between text-sm">
-                  <span className="text-gray-300">Tech Stack</span>
-                  <span className="text-yellow-400">
-                    React • Tailwind • Vite
-                  </span>
-                </div>
-
-                <div className="border-t border-gray-700 py-2 flex justify-between text-sm">
-                  <span className="text-gray-300">Role</span>
-                  <span className="text-yellow-500">Frontend..</span>
-                </div>
-              </div>
-
-              <div className="flex items-center gap-3 pt-2">
-                <a
-                  href=""
-                  target="_blank"
-                  className="text-lime-300 underline flex items-center gap-1 text-sm"
-                >
-                  LIVE DEMO <ArrowUpRight className="w-4 h-4" />
-                </a>
-
-                <a
-                  href=""
-                  target="_blank"
-                  className="text-lime-300 underline flex items-center gap-1 text-sm"
-                >
-                  SEE ON GITHUB <Github className="w-4 h-4" />
-                </a>
-              </div>
-            </div>
-          </div>
+         
           {/* =============Your 3rd project=========== */}
 
           <div className="bg-[#111] rounded-xl shadow-lg border border-gray-800 overflow-hidden">

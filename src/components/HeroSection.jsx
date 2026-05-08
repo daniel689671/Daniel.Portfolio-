@@ -1,5 +1,5 @@
 import React, { useEffect } from "react";
-import daniel from "../assets/Daniel.jpg";
+import daniel from "../assets/WhatsApp Image 2026-04-25 at 11.20.07 AM.jpeg";
 import { Linkedin, Github } from "lucide-react";
 import { FaWhatsapp } from "react-icons/fa"; // WhatsApp icon
 // import ScrollReveal from "scrollreveal";
@@ -88,8 +88,9 @@ const HeroSection = () => {
           </h1>
 
           <p className="text-gray-300 max-w-md">
-            A passionate Full-Stack Developer building accessible and
-            user-friendly digital experiences.
+            Full-Stack Developer | React & Node.js | Building responsive,
+            responsive user-focused web applications| Authentication guru|Google
+            API integration.
           </p>
 
           <div className="flex items-center gap-4 mt-6 down">
