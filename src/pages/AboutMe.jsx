@@ -7,7 +7,6 @@ const AboutMe = () => {
   return;
   <div className="w-full bg-black text-white py-4">
     <Navbar />
-
     {/* Hero Title */}
     <div className="items-center justify-between mt-20 text-center">
       <h2 className="text-5xl text-yellow-500 font-extrabold">
@@ -15,7 +14,6 @@ const AboutMe = () => {
         Cybersecurity Specialist",
       </h2>
     </div>
-
     {/* About Me Section */}
     <section className="w-full text-white py-24 px-6 md:px-16">
       <div className="max-w-6xl mx-auto grid md:grid-cols-2 gap-16">
@@ -83,7 +81,6 @@ const AboutMe = () => {
         </div>
       </div>
     </section>
-
     {/* Hero Image */}
     <div
       className="h-[900px] md:h-[1100px] bg-center bg-no-repeat flex justify-center items-center overflow-hidden m-0 p-0"
@@ -92,7 +89,6 @@ const AboutMe = () => {
         backgroundSize: "90%",
       }}
     ></div>
-
     {/* ================== Capabilities Section ================== */}
     <section className="w-full text-white py-24 px-6 md:px-16">
       <div className="max-w-6xl mx-auto grid md:grid-cols-2 gap-16">
@@ -117,37 +113,37 @@ const AboutMe = () => {
           {/* Bullet Point Capabilities */}
           <ul className="space-y-3 text-lime-300">
             <li className="flex gap-2">
-              • Full Stack Development (Frontend + Backend)
+              Full Stack Development (Frontend + Backend)
             </li>
             <li className="flex gap-2">
-              • Building secure, scalable, and responsive web applications
+              Building secure, scalable, and responsive web applications
             </li>
             <li className="flex gap-2">
-              • Creating intuitive and modern user interfaces
+              Creating intuitive and modern user interfaces
             </li>
             <li className="flex gap-2">
-              • Developing robust server-side logic and REST APIs
+              Developing robust server-side logic and REST APIs
             </li>
             <li className="flex gap-2">
-              • Applying cybersecurity best practices
+              Applying cybersecurity best practices
             </li>
             <li className="flex gap-2">• Database design and management</li>
             <li className="flex gap-2">• Version control with Git & GitHub</li>
             <li className="flex gap-2">
-              • Performance optimization and debugging
+              Performance optimization and debugging
             </li>
             <li className="flex gap-2">
-              • Problem-solving and system improvement
+              Problem-solving and system improvement
             </li>
             <li className="flex gap-2">
-              • Continuous learning and adapting to new technologies
+              Continuous learning and adapting to new technologies
             </li>
           </ul>
 
           {/* Skill Tags */}
-          <div className="flex flex-wrap gap-3">
+          {/* <div className="flex flex-wrap gap-3">
             <p className="rounded-lg border h-9 w-[120px] font-medium px-4 py-1 text-[#ffffff]">
-              HTML
+              HTML5
             </p>
             <p className="rounded-lg border h-9 w-[120px] font-medium px-8 py-1 text-[#ffffff] ">
               CSS
@@ -155,25 +151,28 @@ const AboutMe = () => {
             <p className="rounded-lg border h-9 w-[120px] font-medium px-8 py-1 text-[#ffffff] ">
               Javascript
             </p>
-            <p className="rounded-lg border h-9 w-[120px] font-medium px-3 py-1 text-[#ffffff]">
-              Jquery
-            </p>
-          </div>
-          <div className="flex flex-wrap gap-3">
-            <p className="rounded-lg border h-9 w-[120px] font-medium px-4 py-1 text-[#ffffff]">
-              Accessibility
-            </p>
+          </div> */}
+          {/* <div className="flex flex-wrap gap-3">
+            <p className="rounded-lg border h-9 w-[120px] font-medium px-4 py-1 text-[#ffffff]"></p>
             <p className="rounded-lg border h-9 w-[140px] font-medium px-7 py-1 text-[#ffffff] ">
-              Figma
+              React.js
             </p>
             <p className="rounded-lg border h-9 w-[140px] font-medium px-4 py-1 text-[#ffffff]">
-              Tailwind Css
+              Tailwind CSS
             </p>
-          </div>
+            <p className="rounded-lg border h-9 w-[140px] font-medium px-4 py-1 text-[#ffffff]">
+              Node.js
+            </p>
+            <p className="rounded-lg border h-9 w-[140px] font-medium px-4 py-1 text-[#ffffff]">
+              Express.js
+            </p>
+            <p className="rounded-lg border h-9 w-[140px] font-medium px-4 py-1 text-[#ffffff]">
+              Rest APIs
+            </p>
+          </div> */}
         </div>
       </div>
     </section>
-
     {/* ================== Experience Section ================== */}
     <section className="w-full text-white py-24 px-6 md:px-16">
       <div className="max-w-6xl mx-auto grid md:grid-cols-2 gap-16">
@@ -206,13 +205,8 @@ const AboutMe = () => {
         </div>
       </div>
     </section>
-
-    // "service_3apn1pw",
-    //         template_id: "template_wrzfa1n",
-    //         user_id: "RHBSGcwg3d1osoTle",
-
-
-
+    // "service_3apn1pw", // template_id: "template_wrzfa1n", // user_id:
+    "RHBSGcwg3d1osoTle",
     <Footer />
   </div>;
 };

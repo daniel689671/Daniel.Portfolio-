@@ -3,74 +3,63 @@ import { NavLink } from "react-router-dom";
 import { Menu, X } from "lucide-react";
 
 const Navbar = () => {
-  const [isOpen, setIsOpen] = useState(false);
+  const [open, setOpen] = useState(false);
 
-  const toggleMenu = () => setIsOpen(!isOpen);
+  const linkClass = ({ isActive }) =>
+    `px-3 py-2 flex flex-row items-center rounded-lg font-medium transition-all duration-200
+     ${
+       isActive
+         ? "text-green-600 bg-green-100"
+         : "text-white hover:text-green-600 hover:bg-green-50"
+     }`;
 
   return (
-    <nav className="w-full bg-black text-white fixed top-0 left-0 z-50 shadow-md">
-      <div className="flex items-center justify-between px-6 md:px-20 py-4 md:py-6 max-w-7xl mx-auto">
-        {/* Logo */}
-        <NavLink
-          to="/"
-          className="text-2xl  md:text-4xl font-extrabold tracking-tight"
-        >
-          DANIEL BANKZ.
-        </NavLink>
-
-        {/* Desktop Menu */}
-        <div className="hidden md:flex items-center  text-blue-500  gap-8 text-lg">
-        
-          <NavLink to="/ProjectWork" className="hover:text-cyan-300 transition">
-            About Me
+    <header className="w-full text-white">
+      <nav className="fixed top-0 w-full z-50 glass-nav">
+        <div className="flex text-white items-center pt-4 gap-[950px]">
+          <NavLink to="/" className="flex items-center gap-2">
+            <span className="truncate font-bold max-w-[140px] md:max-w-none">
+              DANIEL BANKZ.
+            </span>
           </NavLink>
-          {/* <Link
-            to="/ContactMe"
-            className="hover:text-cyan-300 underline transition"
-          >
-            Contact Me
-          </Link> */}
-        </div>
 
-        {/* Mobile Hamburger */}
-        <div className="md:hidden flex items-center">
-          <button onClick={toggleMenu}>
-            {isOpen ? (
-              <X className="w-6 h-6 text-white" />
-            ) : (
-              <Menu className="w-6 h-6 text-white" />
-            )}
+          {/* Desktop Links */}
+          {/* <div className="hidden md:flex items-center space-x-2">
+            <NavLink to="/tracking" className={linkClass}>
+              Track Parcel
+            </NavLink>
+            <NavLink to="/services" className={linkClass}>
+              Services
+            </NavLink>
+          
+          </div> */}
+
+          {/* Actions */}
+
+          <NavLink to="/project-work" className={linkClass}>
+            About me
+          </NavLink>
+
+          {/* Mobile Button */}
+          <button className="md:hidden" onClick={() => setOpen(!open)}>
+            {open ? <X /> : <Menu />}
           </button>
         </div>
-      </div>
 
-      {/* Mobile Menu */}
-      {isOpen && (
-        <div className="md:hidden bg-black px-6 pb-6 space-y-4 flex flex-col items-start transition-all">
-          <a
-            href="#"
-            className="w-full text-left py-2 hover:text-cyan-300 transition"
-            onClick={toggleMenu}
-          >
-            Work
-          </a>
-          <Link
-            to="/ProjectWork"
-            className="w-full text-left py-2 hover:text-cyan-300 transition"
-            onClick={toggleMenu}
-          >
-            About Me
-          </Link>
-          <Link
-            to="/ContactMe"
-            className="w-full text-left py-2 hover:text-cyan-300 transition"
-            onClick={toggleMenu}
-          >
-            Contact Me
-          </Link>
-        </div>
-      )}
-    </nav>
+        {/* Mobile Menu */}
+        {open && (
+          <div className="md:hidden bg-black text-white shadow-md px-6 py-6">
+            <NavLink
+              to="/project-work"
+              onClick={() => setOpen(false)}
+              className={linkClass}
+            >
+              About Me
+            </NavLink>
+          </div>
+        )}
+      </nav>
+    </header>
   );
 };
 
