@@ -26,8 +26,9 @@ import eCommerceImg from "../../assets/eCommerceImg .png";
 import worknest from "../../assets/worknest13.png";
 import growth from "../../assets/velocity.png";
 import spaceImg from "../../assets/space.png";
+import credixa from "../../assets/credixa.png";
 
-const HeroSection = () => {
+export default function MainHome() {
   // useEffect(() => {
   //   ScrollReveal().reveal(".download", {
   //     duration: 2000,
@@ -295,7 +296,72 @@ const HeroSection = () => {
           front-end development.
         </p>
       </div>
+      <div className="max-w-6xl mx-auto grid md:grid-cols-2 mb-14 gap-12 items-start">
+        <div className="bg-[#111] p-5 rounded-xl text-left shadow-lg border border-gray-800">
+          <span className="inline-block text-medium bg-gray-800 text-gray-200 px-3 py-1 rounded-full mb-4">
+            Full-Stack Project
+          </span>
 
+          <img
+            src={credixa}
+            alt="Credixa Online Banking Platform"
+            className="rounded-lg w-full"
+          />
+        </div>
+
+        <div className="space-y-6 text-left">
+          <h3 className="text-2xl md:text-3xl font-bold">
+            Credixa Online Banking Platform
+          </h3>
+
+          <p className="text-gray-300 leading-relaxed">
+            Credixa is a full-stack online banking platform that enables users
+            to securely manage their accounts, monitor balances and
+            transactions, transfer funds, and manage their banking activities
+            through a responsive dashboard. The platform includes
+            authentication, account management, transaction processing, OTP
+            verification, and a structured backend API.
+          </p>
+
+          <div className="mt-6">
+            <h4 className="text-sm text-gray-400 mb-2">PROJECT INFO</h4>
+
+            <div className="border-t border-gray-700 py-3 flex justify-between">
+              <span className="text-gray-300">Tech Stack</span>
+              <span className="text-gray-400">
+                React • Node.js • Express • MongoDB
+              </span>
+            </div>
+
+            <div className="border-t border-gray-700 py-3 flex justify-between">
+              <span className="text-gray-300">Role</span>
+              <span className="text-blue-500 text-medium">
+                Full-Stack Developer
+              </span>
+            </div>
+          </div>
+
+          <div className="flex items-center gap-6 pt-4">
+            <a
+              href="https://credixa-virid.vercel.app"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-lime-300 flex underline items-center gap-2 hover:text-lime-600"
+            >
+              LIVE DEMO <ArrowUpRight className="w-4 h-4" />
+            </a>
+
+            <a
+              href="https://github.com/daniel689671/credixa"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-lime-300 flex underline items-center gap-2 hover:text-lime-600"
+            >
+              SEE ON GITHUB <Github className="w-5 h-5" />
+            </a>
+          </div>
+        </div>
+      </div>
       {/* Project 1 */}
       <div className="max-w-6xl mx-auto grid md:grid-cols-2 gap-12 items-start">
         <div className="bg-[#111] p-5 rounded-xl text-left shadow-lg border border-gray-800">
@@ -331,14 +397,14 @@ const HeroSection = () => {
             <a
               href="https://all-countries-omega.vercel.app/"
               target="_blank"
-              className="text-lime-300 flex underline items-center gap-2"
+              className="text-lime-300 flex underline items-center gap-2 hover:text-lime-600"
             >
               LIVE DEMO <ArrowUpRight className="w-4 h-4" />
             </a>
             <a
               href="https://github.com/daniel689671/AllCountries"
               target="_blank"
-              className="text-lime-300 flex underline items-center gap-2"
+              className="text-lime-300 flex underline items-center gap-2 hover:text-lime-600"
             >
               SEE ON GITHUB <Github className="w-5 h-5" />
             </a>
@@ -347,7 +413,7 @@ const HeroSection = () => {
       </div>
 
       {/* Project 2 */}
-      <div className="max-w-6xl mx-auto mt-30 grid md:grid-cols-2 gap-12 items-start mb-15">
+      {/* <div className="max-w-6xl mx-auto mt-30 grid md:grid-cols-2 gap-12 items-start mb-15">
         <div className="bg-[#111] p-5 rounded-xl shadow-lg border border-gray-800">
           <img
             src={growth}
@@ -377,20 +443,20 @@ const HeroSection = () => {
             <a
               href="https://www.velocitytransit.xyz/"
               target="_blank"
-              className="text-lime-300 underline flex items-center gap-2"
+              className="text-lime-300 flex underline items-center gap-2 hover:text-lime-600"
             >
               LIVE DEMO <ArrowUpRight className="w-4 h-4" />
             </a>
             <a
               href="https://vercel.com/luisbalaguerofficialm-ops-projects/velocity"
               target="_blank"
-              className="text-lime-300 underline flex items-center gap-2"
+              className="text-lime-300 flex underline items-center gap-2 hover:text-lime-600"
             >
               SEE ON GITHUB <Github className="w-5 h-5" />
             </a>
           </div>
         </div>
-      </div>
+      </div> */}
 
       {/* ================================= */}
       <div className="max-w-6xl mx-auto grid md:grid-cols-2 gap-12 items-start">
@@ -429,14 +495,14 @@ const HeroSection = () => {
             <a
               href="https://worknest-one.vercel.app/"
               target="_blank"
-              className="text-lime-300 flex underline items-center gap-2"
+              className="text-lime-300 flex underline items-center gap-2 hover:text-lime-600"
             >
               LIVE DEMO <ArrowUpRight className="w-4 h-4" />
             </a>
             <a
               href="https://github.com/luisbalaguerofficialm-ops/work_nest_job.git"
               target="_blank"
-              className="text-lime-300 flex underline items-center gap-2"
+              className="text-lime-300 flex underline items-center gap-2 hover:text-lime-600"
             >
               SEE ON GITHUB <Github className="w-5 h-5" />
             </a>
@@ -445,42 +511,67 @@ const HeroSection = () => {
       </div>
 
       {/* Project 2 */}
-      <div className="max-w-6xl mx-auto mt-30 grid md:grid-cols-2 gap-12 items-start">
+      <div className="max-w-6xl mx-auto mt-30 grid md:grid-cols-2 gap-12 mb-4 items-start">
         <div className="bg-[#111] p-5 rounded-xl shadow-lg border border-gray-800">
+          <span className="inline-block text-medium bg-gray-800 text-gray-200 px-3 py-1 rounded-full mb-4">
+            Full-Stack Project
+          </span>
+
           <img
             src={realEstateImg}
-            alt="Real Estate Project"
-            className="rounded-lg w-full "
+            alt="Beta House Real Estate Platform"
+            className="rounded-lg w-full"
           />
         </div>
+
         <div className="space-y-6 text-left">
-          <h3 className="text-2xl md:text-3xl font-bold">Real Estate</h3>
+          <h3 className="text-2xl md:text-3xl font-bold">
+            Beta House Real Estate Platform
+          </h3>
+
           <p className="text-gray-300 leading-relaxed">
-            Real estate properties project.
+            A full-stack real estate platform that allows users to discover,
+            search, and explore properties through a responsive and
+            user-friendly interface. The platform provides property listings
+            with detailed information, property images, locations, pricing, and
+            other relevant details to help users find suitable properties. A
+            backend API manages property data and supports communication between
+            the frontend and database.
           </p>
+
           <div className="mt-6">
             <h4 className="text-sm text-gray-400 mb-2">PROJECT INFO</h4>
+
             <div className="border-t border-gray-700 py-3 flex justify-between">
-              <span className="text-gray-300">Tech</span>
-              <span className="text-gray-400">React • MongoDB • API</span>
+              <span className="text-gray-300">Tech Stack</span>
+              <span className="text-gray-400">
+                React • Node.js • Express • MongoDB
+              </span>
             </div>
+
             <div className="border-t border-gray-700 py-3 flex justify-between">
               <span className="text-gray-300">Role</span>
-              <span className="text-blue-500 text-medium">Full-Stack..</span>
+              <span className="text-blue-500 text-medium">
+                Full-Stack Developer
+              </span>
             </div>
           </div>
+
           <div className="flex items-center gap-6 pt-4">
             <a
-              href="https://beta-house-one.vercel.app/"
+              href="https://real-estate-omega-livid.vercel.app/"
               target="_blank"
-              className="text-lime-300 underline flex items-center gap-2"
+              rel="noopener noreferrer"
+              className="text-lime-300 flex underline items-center gap-2 hover:text-lime-600"
             >
               LIVE DEMO <ArrowUpRight className="w-4 h-4" />
             </a>
+
             <a
-              href="https://github.com/luisbalaguerofficialm-ops/beta-house"
+              href="https://github.com/daniel689671/Real-Estates"
               target="_blank"
-              className="text-lime-300 underline flex items-center gap-2"
+              rel="noopener noreferrer"
+              className="text-lime-300 flex underline items-center gap-2 hover:text-lime-600"
             >
               SEE ON GITHUB <Github className="w-5 h-5" />
             </a>
@@ -523,14 +614,14 @@ const HeroSection = () => {
             <a
               href="https://e-commerce-wheat-three.vercel.app/"
               target="_blank"
-              className="text-lime-300 underline flex items-center gap-2"
+              className="text-lime-300 flex underline items-center gap-2 hover:text-lime-600"
             >
               LIVE DEMO <ArrowUpRight className="w-4 h-4" />
             </a>
             <a
               href="https://github.com/daniel689671/-e-commerce"
               target="_blank"
-              className="text-lime-300 underline flex items-center gap-2"
+              className="text-lime-300 flex underline items-center gap-2 hover:text-lime-600"
             >
               SEE ON GITHUB <Github className="w-5 h-5" />
             </a>
@@ -572,14 +663,14 @@ const HeroSection = () => {
             <a
               href="https://e-commerce-wheat-three.vercel.app/"
               target="_blank"
-              className="text-lime-300 underline flex items-center gap-2"
+              className="text-lime-300 flex underline items-center gap-2 hover:text-lime-600"
             >
               LIVE DEMO <ArrowUpRight className="w-4 h-4" />
             </a>
             <a
               href="https://github.com/daniel689671/-e-commerce"
               target="_blank"
-              className="text-lime-300 underline flex items-center gap-2"
+              className="text-lime-300 flex underline items-center gap-2 hover:text-lime-600"
             >
               SEE ON GITHUB <Github className="w-5 h-5" />
             </a>
@@ -656,20 +747,6 @@ const HeroSection = () => {
           </div>
         </div>
       </section>
-
-      {/* ======================= */}
-      {/* <div className="w-full  bg-gray-400 py-4 mt-20">
-        <div className="flex items-center  gap-20 justify-center overflow-x-auto md:overflow-visible px-4 md:px-0">
-          <img src={postman} alt="" className="w-20 h-auto md:w-24 postman" />
-          <img src={vercel} alt="" className="w-20 h-auto md:w-24 vercel" />
-          <img src={vite} alt="" className="w-20 h-auto md:w-24 vite" />
-          <img src={figma} alt="" className="w-20 h-auto md:w-24 figma" />
-          <img src={tailwind} alt="" className="w-20 h-auto md:w-24 tailwind" />
-          <img src={render} alt="" className="w-20 h-auto md:w-24 render" />
-        </div>
-      </div> */}
     </div>
   );
-};
-
-export default HeroSection;
+}

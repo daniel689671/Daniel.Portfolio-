@@ -7,7 +7,7 @@ import { FaWhatsapp } from "react-icons/fa"; // WhatsApp icon
 // import TextType from "../components/TextType";
 import { Link } from "react-router-dom";
 
-const HeroSection = () => {
+export default function HeroSection() {
   // const imgRef = useRef(null);
 
   // useEffect(() => {
@@ -94,12 +94,12 @@ const HeroSection = () => {
           </p>
 
           <div className="flex items-center gap-4 mt-6 down">
-            <Link
-              to="/ContactMe"
+            {/* <a
+              href="#contact"
               className="bg-lime-300 text-black px-6 py-2 rounded-full font-semibold hover:bg-lime-400 transition"
             >
               CONTACT ME
-            </Link>
+            </a> */}
 
             {/* Functional Social Links */}
             <a
@@ -144,4 +144,4 @@ const HeroSection = () => {
   );
 };
 
-export default HeroSection;
+

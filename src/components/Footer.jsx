@@ -57,7 +57,7 @@ const Footer = () => {
             user_id: "-klwM82zLxcL9SXoc", // <-- YOUR PUBLIC KEY
             template_params: templateParams,
           }),
-        }
+        },
       );
 
       const data = await response.text(); // 🔍 Capture detailed error messages
@@ -127,7 +127,9 @@ const Footer = () => {
               <Instagram className="w-6 h-6 text-lime-300 cursor-pointer hover:opacity-80" />
             </div>
 
-            <p className="text-gray-500 text-sm pt-80">© 2026 DANIEL CHEKWUBE</p>
+            <p className="text-gray-500 text-sm pt-16 md:pt-24">
+              © 2026 DANIEL CHEKWUBE
+            </p>
           </div>
 
           {/* RIGHT SECTION — FORM */}
