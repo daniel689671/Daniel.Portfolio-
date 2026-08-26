@@ -413,50 +413,81 @@ export default function MainHome() {
       </div>
 
       {/* Project 2 */}
-      {/* <div className="max-w-6xl mx-auto mt-30 grid md:grid-cols-2 gap-12 items-start mb-15">
+      <div className="max-w-6xl mx-auto mt-30 grid md:grid-cols-2 gap-12 items-start mb-15">
         <div className="bg-[#111] p-5 rounded-xl shadow-lg border border-gray-800">
+          <span className="inline-block text-medium bg-gray-800 text-gray-200 px-3 py-1 rounded-full mb-4">
+            Full-Stack Project
+          </span>
+
           <img
             src={growth}
-            alt="Real Estate Project"
-            className="rounded-lg w-full "
+            alt="Velocity Transit Logistics and Shipment Tracking Platform"
+            className="rounded-lg w-full"
           />
         </div>
+
         <div className="space-y-6 text-left">
-          <h3 className="text-2xl md:text-3xl font-bold">VELOCITY TRANSIT</h3>
+          <h3 className="text-2xl md:text-3xl font-bold">
+            Velocity Transit
+            <br />
+            Logistics & Shipment Tracking Platform
+          </h3>
+
           <p className="text-gray-300 leading-relaxed">
-            A modern logistics and fleet management platform built to monitor
-            couriers, track vehicle operations in real time, and streamline
-            shipment delivery across multiple transport networks.
+            Velocity Transit is a full-stack logistics and shipment management
+            platform designed to simplify the process of creating, managing, and
+            tracking deliveries. The platform provides customers with shipment
+            tracking and delivery updates, while administrators can manage
+            shipments, monitor delivery operations, assign riders, and oversee
+            logistics activities from a centralized dashboard. It combines a
+            responsive user interface with backend APIs and database integration
+            to create a structured workflow for managing shipments from creation
+            through delivery.
           </p>
+
           <div className="mt-6">
-            <h4 className="text-sm text-gray-400 mb-2">PROJECT INFO</h4>
-            <div className="border-t border-gray-700 py-3 flex justify-between">
-              <span className="text-gray-300">Tech</span>
-              <span className="text-gray-200">• React & Node.js • API</span>
+            <h4 className="text-sm text-left text-gray-400 mb-2">PROJECT INFO</h4>
+
+            <div className="border-t border-gray-700 py-3 flex justify-between gap-6">
+              <span className="text-gray-300">Tech Stack</span>
+
+              <span className="text-gray-400 text-right">
+                React • Node.js • Express • MongoDB
+              </span>
             </div>
+
             <div className="border-t border-gray-700 py-3 flex justify-between">
               <span className="text-gray-300">Role</span>
-              <span className="text-blue-500 text-medium">Full-Stack..</span>
+
+              <span className="text-blue-500 font-medium">
+                Full-Stack Developer
+              </span>
             </div>
           </div>
+
           <div className="flex items-center gap-6 pt-4">
             <a
-              href="https://www.velocitytransit.xyz/"
+              href="https://velocity-transit-smoky.vercel.app/"
               target="_blank"
+              rel="noopener noreferrer"
               className="text-lime-300 flex underline items-center gap-2 hover:text-lime-600"
             >
-              LIVE DEMO <ArrowUpRight className="w-4 h-4" />
+              LIVE DEMO
+              <ArrowUpRight className="w-4 h-4" />
             </a>
+
             <a
-              href="https://vercel.com/luisbalaguerofficialm-ops-projects/velocity"
+              href="https://github.com/daniel689671/velocity-transit"
               target="_blank"
+              rel="noopener noreferrer"
               className="text-lime-300 flex underline items-center gap-2 hover:text-lime-600"
             >
-              SEE ON GITHUB <Github className="w-5 h-5" />
+              SEE ON GITHUB
+              <Github className="w-5 h-5" />
             </a>
           </div>
         </div>
-      </div> */}
+      </div>
 
       {/* ================================= */}
       <div className="max-w-6xl mx-auto grid md:grid-cols-2 gap-12 items-start">
@@ -464,47 +495,71 @@ export default function MainHome() {
           <span className="inline-block text-medium bg-gray-800 text-gray-200 px-3 py-1 rounded-full mb-4">
             Conceptual Work
           </span>
+
           <img
             src={worknest}
-            alt="All Countries Project"
-            className="rounded-lg w-full "
+            alt="WorkNest Job Search and Recruitment Platform"
+            className="rounded-lg w-full"
           />
         </div>
+
         <div className="space-y-6 text-left">
           <h3 className="text-2xl md:text-3xl font-bold">
-            WORK NEST
+            WorkNest
             <br />
-            Job Seeking Website....
+            Job Search & Recruitment Platform
           </h3>
+
           <p className="text-gray-300 leading-relaxed">
-            How it works for job seekers
+            WorkNest is a modern job-seeking platform designed to make the job
+            search process easier, more organized, and more accessible. The
+            platform allows job seekers to explore available opportunities,
+            search and filter job listings, view detailed job information, and
+            connect with relevant opportunities through a clean and responsive
+            interface. It demonstrates how a full-stack application can combine
+            intuitive frontend experiences with backend APIs to manage and
+            deliver dynamic job-related data.
           </p>
+
           <div className="mt-6">
             <h4 className="text-sm text-gray-400 mb-2">PROJECT INFO</h4>
-            <div className="border-t border-gray-700 py-3 flex justify-between">
+
+            <div className="border-t border-gray-700 py-3 flex justify-between gap-6">
               <span className="text-gray-300">Tech Stack</span>
 
-              <span className="text-gray-400">React • Node • API</span>
+              <span className="text-gray-400 text-right">
+                React • Node.js • Express • MongoDB
+              </span>
             </div>
+
             <div className="border-t border-gray-700 py-3 flex justify-between">
               <span className="text-gray-300">Role</span>
-              <span className="text-green-500 text-medium">Full-Stack..</span>
+
+              <span className="text-green-500 font-medium">
+                Full-Stack Developer
+              </span>
             </div>
           </div>
+
           <div className="flex items-center gap-6 pt-4">
             <a
               href="https://worknest-one.vercel.app/"
               target="_blank"
+              rel="noopener noreferrer"
               className="text-lime-300 flex underline items-center gap-2 hover:text-lime-600"
             >
-              LIVE DEMO <ArrowUpRight className="w-4 h-4" />
+              LIVE DEMO
+              <ArrowUpRight className="w-4 h-4" />
             </a>
+
             <a
               href="https://github.com/luisbalaguerofficialm-ops/work_nest_job.git"
               target="_blank"
+              rel="noopener noreferrer"
               className="text-lime-300 flex underline items-center gap-2 hover:text-lime-600"
             >
-              SEE ON GITHUB <Github className="w-5 h-5" />
+              SEE ON GITHUB
+              <Github className="w-5 h-5" />
             </a>
           </div>
         </div>
