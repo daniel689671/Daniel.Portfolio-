@@ -467,7 +467,7 @@ export default function MainHome() {
 
           <div className="flex items-center gap-6 pt-4">
             <a
-              href="https://velocity-transit-smoky.vercel.app/"
+              href="https://velocitytransit.xyz/"
               target="_blank"
               rel="noopener noreferrer"
               className="text-lime-300 flex underline items-center gap-2 hover:text-lime-600"
