@@ -119,19 +119,19 @@ const Footer = () => {
                 </a>
               </p>
             </div>
-
+            {/* 
             <div className="flex items-center gap-6 mt-6">
               <Linkedin className="w-6 h-6 text-lime-300 cursor-pointer hover:opacity-80" />
               <Github className="w-6 h-6 text-lime-300 cursor-pointer hover:opacity-80" />
               <X className="w-6 h-6 text-lime-300 cursor-pointer hover:opacity-80" />
               <Instagram className="w-6 h-6 text-lime-300 cursor-pointer hover:opacity-80" />
-            </div>
-
-            <p className="text-gray-500 text-sm pt-16 md:pt-24">
-              © 2026 DANIEL CHEKWUBE
+            </div> */}
+          </div>
+          <div className="justify-center">
+            <p className="underline hover:text-white text-lime-300 font-extrabold text-4xl">
+              Contact Me
             </p>
           </div>
-
           {/* RIGHT SECTION — FORM */}
           <form onSubmit={handleSubmit} className="space-y-6 text-left">
             <div>
@@ -204,6 +204,9 @@ const Footer = () => {
             </button>
           </form>
         </div>
+        <p className="text-gray-500 text-sm pt-16 md:pt-24 text-3xl">
+          © 2026 DANIEL CHEKWUBE
+        </p>
       </footer>
     </>
   );

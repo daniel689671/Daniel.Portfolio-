@@ -88,9 +88,9 @@ export default function HeroSection() {
           </h1>
 
           <p className="text-gray-300 max-w-md">
-            Full-Stack Developer | React & Node.js | Building responsive,
-            responsive user-focused web applications| Authentication guru|Google
-            API integration.
+            "Full-Stack Developer & Cybersecurity Specialist" | React & Node.js
+            | Building responsive, responsive user-focused web applications|
+            Authentication guru|Google API integration.
           </p>
 
           <div className="flex items-center gap-4 mt-6 down">
@@ -142,6 +142,4 @@ export default function HeroSection() {
       </div>
     </section>
   );
-};
-
-
+}

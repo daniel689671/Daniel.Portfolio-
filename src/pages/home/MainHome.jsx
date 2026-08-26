@@ -293,7 +293,7 @@ export default function MainHome() {
         </h2>
         <p className="text-gray-400 mt-3">
           Here are some of the selected projects that showcase my passion for
-          front-end development.
+          Full-Stack development.
         </p>
       </div>
       <div className="max-w-6xl mx-auto grid md:grid-cols-2 mb-14 gap-12 items-start">
@@ -363,7 +363,7 @@ export default function MainHome() {
         </div>
       </div>
       {/* Project 1 */}
-      <div className="max-w-6xl mx-auto grid md:grid-cols-2 gap-12 items-start">
+      <div className="max-w-6xl mx-auto grid md:grid-cols-2 gap-12 mb-10 items-start">
         <div className="bg-[#111] p-5 rounded-xl text-left shadow-lg border border-gray-800">
           <span className="inline-block text-medium bg-gray-800 text-gray-200 px-3 py-1 rounded-full mb-4">
             Conceptual Work
@@ -511,7 +511,7 @@ export default function MainHome() {
       </div>
 
       {/* Project 2 */}
-      <div className="max-w-6xl mx-auto mt-30 grid md:grid-cols-2 gap-12 mb-4 items-start">
+      <div className="max-w-6xl mx-auto mt-30 grid md:grid-cols-2 gap-12 mb-10 items-start">
         <div className="bg-[#111] p-5 rounded-xl shadow-lg border border-gray-800">
           <span className="inline-block text-medium bg-gray-800 text-gray-200 px-3 py-1 rounded-full mb-4">
             Full-Stack Project
@@ -582,7 +582,7 @@ export default function MainHome() {
       {/* ========================================= */}
 
       {/* Project 3 */}
-      <div className="max-w-6xl mx-auto mt-30 grid md:grid-cols-2 gap-12 items-start">
+      <div className="max-w-6xl mx-auto mt-30 grid md:grid-cols-2 gap-12 mb-10 items-start">
         <div className="bg-[#111] p-5 rounded-xl shadow-lg border border-gray-800">
           <span className="inline-block text-medium bg-gray-800 text-gray-200 px-3 py-1 rounded-full mb-4">
             Conceptual Work
@@ -629,47 +629,62 @@ export default function MainHome() {
         </div>
       </div>
       {/* ======================== */}
-      <div className="max-w-6xl mx-auto mt-30 grid md:grid-cols-2 gap-12 items-start">
+      <div className="max-w-6xl mx-auto mt-30 grid md:grid-cols-2 gap-12  items-start">
         <div className="bg-[#111] p-5 rounded-xl shadow-lg border border-gray-800">
           <span className="inline-block text-medium bg-gray-800 text-gray-200 px-3 py-1 rounded-full mb-4">
             Conceptual Work
           </span>
+
           <img
             src={spaceImg}
-            alt="E-Commerce Project"
+            alt="Space Tourism Multi-page Website"
             className="rounded-lg w-full"
           />
         </div>
+
         <div className="space-y-6 text-left">
           <h3 className="text-2xl md:text-3xl font-bold">
-            {" "}
-            SPACE TOURISM MULTI-page website
+            Space Tourism Multi-page Website
           </h3>
+
           <p className="text-gray-300 leading-relaxed">
-            So, you want to travel to Space
+            A modern, immersive space tourism website designed to showcase
+            destinations, crew members, and spacecraft through a visually
+            engaging multi-page experience. The project focuses on responsive
+            design, intuitive navigation, reusable components, and creating an
+            engaging user experience across different screen sizes.
           </p>
+
           <div className="mt-6">
             <h4 className="text-sm text-gray-400 mb-2">PROJECT INFO</h4>
+
             <div className="border-t border-gray-700 py-3 flex justify-between">
               <span className="text-gray-300">Tech Stack</span>
-              <span className="text-gray-400">React • Tailwind • Vite</span>
+              <span className="text-gray-400">React • Tailwind CSS • Vite</span>
             </div>
+
             <div className="border-t border-gray-700 py-3 flex justify-between">
               <span className="text-gray-300">Role</span>
-              <span className="text-blue-500 text-medium">Frontend</span>
+              <span className="text-blue-500 text-medium">
+                Frontend Developer
+              </span>
             </div>
           </div>
+
           <div className="flex items-center gap-6 pt-4">
             <a
-              href="https://e-commerce-wheat-three.vercel.app/"
+              href="https://space-tourism-teal-six.vercel.app/"
               target="_blank"
+              rel="noopener noreferrer"
               className="text-lime-300 flex underline items-center gap-2 hover:text-lime-600"
             >
               LIVE DEMO <ArrowUpRight className="w-4 h-4" />
             </a>
+
             <a
-              href="https://github.com/daniel689671/-e-commerce"
+              href="https://github.com/daniel689671/Space-tourism"
               target="_blank"
+              rel="noopener noreferrer"
               className="text-lime-300 flex underline items-center gap-2 hover:text-lime-600"
             >
               SEE ON GITHUB <Github className="w-5 h-5" />
@@ -717,12 +732,12 @@ export default function MainHome() {
               essential part of how I build.
             </p>
 
-            <a
+            {/* <a
               href="#"
               className="text-lime-300 font-semibold underline underline-offset-4 hover:text-lime-400"
             >
               MORE ABOUT ME
-            </a>
+            </a> */}
 
             {/* Buttons & Icons */}
             {/* <div className="flex items-center gap-4 mt-6">
