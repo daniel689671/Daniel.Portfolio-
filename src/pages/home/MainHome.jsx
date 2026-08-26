@@ -24,7 +24,7 @@ import allCountriesImg from "../../assets/allCountriesImg .png";
 import realEstateImg from "../../assets/realEstateImg.png";
 import eCommerceImg from "../../assets/eCommerceImg .png";
 import worknest from "../../assets/worknest13.png";
-import growth from "../../assets/velocity.png";
+import growth from "../../assets/voloo.png";
 import spaceImg from "../../assets/space.png";
 import credixa from "../../assets/credixa.png";
 
@@ -446,7 +446,9 @@ export default function MainHome() {
           </p>
 
           <div className="mt-6">
-            <h4 className="text-sm text-left text-gray-400 mb-2">PROJECT INFO</h4>
+            <h4 className="text-sm text-left text-gray-400 mb-2">
+              PROJECT INFO
+            </h4>
 
             <div className="border-t border-gray-700 py-3 flex justify-between gap-6">
               <span className="text-gray-300">Tech Stack</span>
