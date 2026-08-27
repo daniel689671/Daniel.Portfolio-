@@ -27,6 +27,7 @@ import worknest from "../../assets/worknest13.png";
 import growth from "../../assets/voloo.png";
 import spaceImg from "../../assets/space.png";
 import credixa from "../../assets/credixa.png";
+import admin from "../../assets/admin.png";
 
 export default function MainHome() {
   // useEffect(() => {
@@ -358,6 +359,84 @@ export default function MainHome() {
               className="text-lime-300 flex underline items-center gap-2 hover:text-lime-600"
             >
               SEE ON GITHUB <Github className="w-5 h-5" />
+            </a>
+          </div>
+        </div>
+      </div>
+      {/* ================================= */}
+
+      <div className="max-w-6xl mx-auto mt-30 grid md:grid-cols-2 gap-12 items-start mb-15">
+        <div className="bg-[#111] p-5 rounded-xl shadow-lg border border-gray-800">
+          <span className="inline-block text-medium bg-gray-800 text-gray-200 px-3 py-1 rounded-full mb-4">
+            Full-Stack Project
+          </span>
+
+          <img
+            src={admin}
+            alt="Velocity Transit Logistics and Shipment Tracking Platform"
+            className="rounded-lg w-full"
+          />
+        </div>
+
+        <div className="space-y-6 text-left">
+          <h3 className="text-2xl md:text-3xl font-bold">
+            Credixa
+            <br />
+            Banking Admin Dashboard
+          </h3>
+
+          <p className="text-gray-300 leading-relaxed">
+            Credixa Banking Admin Dashboard is a full-stack administrative
+            platform designed to provide centralized control over core banking
+            operations. Administrators can monitor customer accounts, review
+            balances and transactions, manage users, and oversee account
+            activity from a responsive dashboard. The system is supported by a
+            Node.js and Express backend with MongoDB for data management, while
+            secure authentication and structured API workflows help protect
+            administrative operations and financial data.
+          </p>
+
+          <div className="mt-6">
+            <h4 className="text-sm text-left text-gray-400 mb-2">
+              PROJECT INFO
+            </h4>
+
+            <div className="border-t border-gray-700 py-3 flex justify-between gap-6">
+              <span className="text-gray-300">Tech Stack</span>
+
+              <span className="text-gray-400 text-right">
+                React • Node.js • Express • MongoDB
+              </span>
+            </div>
+
+            <div className="border-t border-gray-700 py-3 flex justify-between">
+              <span className="text-gray-300">Role</span>
+
+              <span className="text-blue-500 font-medium">
+                Full-Stack Developer
+              </span>
+            </div>
+          </div>
+
+          <div className="flex items-center gap-6 pt-4">
+            <a
+              href="https://credixa-admin-six.vercel.app/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-lime-300 flex underline items-center gap-2 hover:text-lime-600"
+            >
+              LIVE DEMO
+              <ArrowUpRight className="w-4 h-4" />
+            </a>
+
+            <a
+              href="https://github.com/daniel689671/credixa.admin"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-lime-300 flex underline items-center gap-2 hover:text-lime-600"
+            >
+              SEE ON GITHUB
+              <Github className="w-5 h-5" />
             </a>
           </div>
         </div>
