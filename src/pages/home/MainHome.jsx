@@ -373,7 +373,7 @@ export default function MainHome() {
 
           <img
             src={admin}
-            alt="Velocity Transit Logistics and Shipment Tracking Platform"
+            alt="Credixa admin"
             className="rounded-lg w-full"
           />
         </div>
@@ -420,7 +420,7 @@ export default function MainHome() {
 
           <div className="flex items-center gap-6 pt-4">
             <a
-              href="https://credixa-admin-six.vercel.app/"
+              href="https://adminadmin.credixa.co/"
               target="_blank"
               rel="noopener noreferrer"
               className="text-lime-300 flex underline items-center gap-2 hover:text-lime-600"
